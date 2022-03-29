@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AppliGSB</string>
+
+    <!-- Fichier "activity_main.xml" -->
+    <string name="main_title">Application de gestion des échantillons de compléments alimentaires</string>
+    <string name="main_add_button">Ajouter un nouvel echantillon</string>
+    <string name="main_list_button">Liste des echantillons</string>
+    <string name="main_maj_button">Mise a jour d\'un echantillon</string>
+    <string name="main_quit_button">Quitter</string>
+
+    <!-- Fichier "ajout_echant.xml" -->
+    <string name="echant_title">Saisie d\'un nouvel échantillo,</string>
+    <string name="echant_code">Saisir ici un code</string>
+    <string name="echant_libelle">Saisir ici un libellé</string>
+    <string name="echant_stock">Saisir ici un stock</string>
+    <string name="echant_add_button">Ajouter</string>
+    <string name="echant_quit_button">Quitter</string>
+    <string name="echant_message">Message</string>
+
+    <string name="mnuAjout">Ajout</string>
+    <string name="mnuListe">Liste</string>
+    <string name="mnuMaj">Mise à jour</string>
+    <string name="mnuQuitter">Quitter</string>
+
+    <!-- Fichier "liste_echant.xml" -->
+    <string name="list_title">Liste des échantillons</string>
+    <string name="list_quit_button">Quitter</string>
+
+    <!-- Fichier "maj_echant.xml" -->
+    <string name="maj_title">Mise à jour d\'un échantillon :</string>
+    <string name="maj_code">Saisir ici un code</string>
+    <string name="maj_qte">Saisir ici une quantite</string>
+    <string name="maj_delete_button">Supprimer</string>
+    <string name="maj_add_button">Ajouter</string>
+    <string name="maj_quit_button">Quitter</string>
+    <string name="maj_message">Message</string>
+
+</resources>
