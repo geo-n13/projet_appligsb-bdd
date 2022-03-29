@@ -34,8 +34,10 @@
         android:id="@+id/listeListViewEchantillon"
         android:layout_width="402dp"
         android:layout_height="492dp"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="119dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        tools:layout_editor_absoluteX="4dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
