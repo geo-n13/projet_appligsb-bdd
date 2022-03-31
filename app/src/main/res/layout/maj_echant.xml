@@ -28,6 +28,17 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:id="@+id/majButtonDelete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/maj_supp_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
         android:id="@+id/majButtonAjouter"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -56,8 +67,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="430dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/maj_qte"
+        android:inputType="number"
+        android:hint="@string/maj_qte"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +82,7 @@
         android:layout_marginBottom="490dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/maj_code"
+        android:hint="@string/maj_code"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

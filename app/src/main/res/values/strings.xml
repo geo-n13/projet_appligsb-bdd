@@ -33,6 +33,7 @@
     <string name="maj_delete_button">Supprimer</string>
     <string name="maj_add_button">Ajouter</string>
     <string name="maj_quit_button">Quitter</string>
+    <string name="maj_supp_button">Supprimer la ligne</string>
     <string name="maj_message">Message</string>
 
 </resources>

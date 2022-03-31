@@ -38,7 +38,6 @@ public class Echantillon {
         return quantiteStock;
     }
 
-
     public void setQuantiteStock(String quantiteStock){
         this.quantiteStock = quantiteStock;
     }

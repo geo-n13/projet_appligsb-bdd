@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //test de la BDD
-        testBd();
+        // testBd();
     }
 
-    public void testBd(){
+    /* public void testBd(){
         //Création d'une instance de la classe echantBDD
         BdAdapter echantBdd = new BdAdapter(this);
         //Création d'un Echantillon
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Cet echantillon existe dans la BDD", Toast.LENGTH_LONG).show();
         }
         echantBdd.close();
-    }
+    }*/
 
     public boolean onCreateOptionsMenu(Menu menu) {
     // Inflate the menu; this adds items to the action bar if it is present.
