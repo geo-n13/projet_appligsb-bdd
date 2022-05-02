@@ -94,4 +94,8 @@ public class BdAdapter {
     public Cursor getData(){
         return db.rawQuery("SELECT * FROM echantillons", null);
     }
+
+    public Cursor getDataRea(){
+        return db.rawQuery("SELECT * FROM echantillons WHERE CAST(STOCK as int) < 10", null);
+    }
 }

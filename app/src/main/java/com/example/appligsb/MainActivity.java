@@ -111,6 +111,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent3 = new Intent(this, MajEchant.class);
                 startActivity(intent3);
                 return true;
+            case R.id.rea:
+                Intent intent4 = new Intent(this, ReaEchant.class);
+                startActivity(intent4);
+                return true;
             case R.id.quitter:
                 finish();
         }
@@ -131,6 +135,11 @@ public class MainActivity extends AppCompatActivity {
     public void openMajEchantillon(View view){
         Intent intent3 = new Intent(this, MajEchant.class);
         startActivity(intent3);
+    }
+
+    public void openReaEchantillon(View view){
+        Intent intent4 = new Intent(this, ReaEchant.class);
+        startActivity(intent4);
     }
 
     public void quitApp(View view){

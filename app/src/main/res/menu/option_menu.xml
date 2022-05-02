@@ -10,6 +10,8 @@
                 android:title="@string/mnuListe" />
             <item android:id="@+id/maj"
                 android:title="@string/mnuMaj" />
+            <item android:id="@+id/rea"
+                android:title="@string/mnuRea" />
         </menu>
 
     </item>

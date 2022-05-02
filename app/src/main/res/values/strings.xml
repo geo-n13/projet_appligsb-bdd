@@ -6,6 +6,7 @@
     <string name="main_add_button">Ajouter un nouvel echantillon</string>
     <string name="main_list_button">Liste des echantillons</string>
     <string name="main_maj_button">Mise a jour d\'un echantillon</string>
+    <string name="main_rea_button">Compléments à réapprovisionner</string>
     <string name="main_quit_button">Quitter</string>
 
     <!-- Fichier "ajout_echant.xml" -->
@@ -21,6 +22,7 @@
     <string name="mnuListe">Liste</string>
     <string name="mnuMaj">Mise à jour</string>
     <string name="mnuQuitter">Quitter</string>
+    <string name="mnuRea">Réapprovisionnements</string>
 
     <!-- Fichier "liste_echant.xml" -->
     <string name="list_title">Liste des échantillons</string>
@@ -35,5 +37,11 @@
     <string name="maj_quit_button">Quitter</string>
     <string name="maj_supp_button">Supprimer la ligne</string>
     <string name="maj_message">Message</string>
+
+    <!-- Fichier "rea_echant.xml" -->
+    <string name="rea_title">Liste des compléments à réapprovisionner :</string>
+    <string name="rea_quit_button">Quitter</string>
+    <string name="rea_col1">Nom Complément</string>
+    <string name="rea_col2">Quantité en stock</string>
 
 </resources>

@@ -30,6 +30,10 @@
             android:name=".MajEchant"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".ReaEchant"
+            android:label="@string/app_name">
+        </activity>
     </application>
 
 </manifest>
